@@ -1,5 +1,62 @@
 /* body styles */
 body {
-    background-color: rgb(22, 22, 22);
-    color: #F4F4F4;
+  background-color: rgb(43, 43, 43);
+  color: #f4f4f4;
+}
+/* header styles */
+.header-block {
+  height: 84px;
+  padding: 24px 12px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgba(26, 30, 31, 1);
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 269px;
+}
+
+.logo {
+  width: 100%;
+  /* width: 182px; */
+  height: 40px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-ul {
+  display: flex;
+  justify-content: space-around;
+  max-width: 700px;
+  height: 26px;
+  align-items: center;
+}
+
+.li {
+  width: 137px;
+  padding: 16px 24px;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #f2f4ff;
+  transition: color 0.4s ease 0s;
+}
+.li:hover {
+  color: rgb(0, 163, 224);
+}
+.active {
+  color: rgb(0, 163, 224);
 }
