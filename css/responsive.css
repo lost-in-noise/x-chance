@@ -1,0 +1,33 @@
+@media (max-width: 1315px) {
+  .header-wrapper {
+    margin: 0 144px;
+  }
+}
+@media (max-width: 1225px) {
+  .header-block {
+    height: auto;
+    padding: 16px;
+  }
+  .nav-ul {
+    max-width: 100%;
+  }
+  .li {
+    padding: 12px;
+  }
+}
+@media (max-width: 1024px) {
+  .header-wrapper {
+    margin: 0 45px;
+  }
+  .logo {
+    height: 100%;
+  }
+}
+@media (max-width: 780px) {
+  .navbar {
+    display: none;
+  }
+  .burger-bar {
+    display: flex;
+  }
+}
