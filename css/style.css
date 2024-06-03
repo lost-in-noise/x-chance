@@ -52,7 +52,6 @@ body {
   font-weight: 500;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-  font-weight: 400;
   font-size: 14px;
   line-height: 26px;
   color: #f2f4ff;
@@ -108,6 +107,9 @@ body {
 .bg-image-section {
   position: relative;
   padding-top: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .image-block {
   height: 100%;
@@ -116,4 +118,34 @@ body {
 img {
   width: 100%;
   object-fit: cover;
+}
+.main-title {
+  font-size: 42px;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 1.6em;
+  color: rgb(244, 244, 244);
+  letter-spacing: 0em;
+}
+.title {
+  font-size: 34px;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 1.6em;
+  color: rgb(244, 244, 244);
+  letter-spacing: 0em;
+}
+.block-on-image {
+  height: auto;
+  text-align: left;
+  position: absolute;
+  top: 40%;
+  max-width: 1000px;
+  width: 100%;
 }
