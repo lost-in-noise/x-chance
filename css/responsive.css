@@ -24,10 +24,15 @@
   }
 }
 @media (max-width: 780px) {
-  .navbar {
+  .navigation {
     display: none;
   }
-  .burger-bar {
+   .header-block {
     display: flex;
+    justify-content: space-between;
+  }
+  .header-wrapper {
+    margin: 0;
+    flex-direction: column;
   }
 }
