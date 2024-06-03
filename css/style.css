@@ -79,7 +79,6 @@ body {
 }
 .bar:nth-child(1) {
   width: 50%;
- 
 }
 .bar:nth-child(3) {
   width: 50%;
@@ -90,7 +89,6 @@ body {
 }
 .burger-bar.active .bar:nth-child(1) {
   transform: rotate(-137deg) translate(-2px, 0px);
-  
 }
 .burger-bar.active .bar:nth-child(2) {
   transform: rotate(-45deg);
@@ -98,5 +96,4 @@ body {
 }
 .burger-bar.active .bar:nth-child(3) {
   transform: rotate(-137deg) translate(2px, 0px);
-  
 }
