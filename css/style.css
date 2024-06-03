@@ -75,11 +75,11 @@ body {
   background-color: #f2f4ff;
   margin: 4px 0;
   transition: 0.4s;
-  display: flex;
   border-radius: 25px;
 }
 .bar:nth-child(1) {
   width: 50%;
+ 
 }
 .bar:nth-child(3) {
   width: 50%;
@@ -89,11 +89,14 @@ body {
   background-color: #555;
 }
 .burger-bar.active .bar:nth-child(1) {
-  transform: rotate(-45deg) translate(-5px, 6px);
+  transform: rotate(-137deg) translate(-2px, 0px);
+  
 }
 .burger-bar.active .bar:nth-child(2) {
-  opacity: 0;
+  transform: rotate(-45deg);
+  margin: 0px;
 }
 .burger-bar.active .bar:nth-child(3) {
-  transform: rotate(45deg) translate(-5px, -6px);
+  transform: rotate(-137deg) translate(2px, 0px);
+  
 }
