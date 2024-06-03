@@ -35,4 +35,9 @@
     margin: 0;
     flex-direction: column;
   }
+  .burger-bar {
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
 }
