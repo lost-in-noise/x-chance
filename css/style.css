@@ -149,3 +149,42 @@ img {
   max-width: 1000px;
   width: 100%;
 }
+/* info text section */
+.info-box {
+  height: 464px;
+}
+.info-text {
+  font-size: 28px;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 1.6em;
+  margin-bottom: 46px;
+}
+.more-info {
+  font-size: 20px;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 1.6em;
+  color: rgb(0, 174, 243);
+  transition: color 0.4s ease 0s;
+  cursor: pointer;
+}
+.more-info:hover {
+  color: #9b9b9b;
+}
+.info-wrapper {
+  padding: 16px;
+  max-width: 1000px;
+  width: 100%;
+}
+.info-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
