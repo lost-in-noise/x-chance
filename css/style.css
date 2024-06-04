@@ -188,3 +188,8 @@ img {
   justify-content: center;
   align-items: center;
 }
+
+/* courses */
+.courses {
+  background-color: rgb(22, 22, 22);;
+}
