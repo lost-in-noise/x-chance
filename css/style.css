@@ -206,3 +206,61 @@ img {
 .three-boxes {
   display: flex;
 }
+.section-title {
+  color: #dbdbdb;
+  font-size: 24px;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 1.6em;
+  margin-top: 18px;
+  margin-bottom: 67px;
+}
+.box {
+  width: 300px;
+  height: 393px;
+  border-style: solid;
+  border-color: rgba(85, 85, 85, 1);
+  border-width: 1px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.box img {
+  margin-bottom: 34px;
+}
+.name {
+  font-size: 18px;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 1.6em;
+  margin-bottom: 25px;
+}
+.descr {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 1.6em;
+  width: 266px;
+  height: auto;
+  font-size: 14px;
+}
+.more-course-info {
+  display: flex;
+  flex-direction: row;
+}
+.fa-arrow-right {
+  color: #00AEEF;
+
+}
+.course-info {
+  color: #00AEEF;
+}
