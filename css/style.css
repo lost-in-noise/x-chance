@@ -226,6 +226,8 @@ img {
   border-width: 1px;
   border-radius: 6px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 .box img {
   margin-bottom: 34px;
@@ -253,14 +255,32 @@ img {
   height: auto;
   font-size: 14px;
 }
-.more-course-info {
+.more-box {
   display: flex;
-  flex-direction: row;
+  gap: 10px;
 }
 .fa-arrow-right {
-  color: #00AEEF;
-
+  color: #00aeef;
 }
 .course-info {
-  color: #00AEEF;
+  color: #00aeef;
+  cursor: pointer;
+  transition: color 0.4s ease 0s;
+  font-size: 16px;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.course-info:hover {
+  color: #00658a;
+}
+.box-content {
+  padding-left: 20px;
+  padding-bottom: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
