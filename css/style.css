@@ -370,3 +370,46 @@ img {
   flex-direction: column;
   gap: 20px;
 }
+
+/* accordion section */
+.accordion {
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #151313;
+  cursor: pointer;
+}
+
+.accordion-header p {
+  margin: 0;
+}
+
+.accordion-content {
+  padding: 15px;
+  display: none;
+  background-color: rgb(27, 22, 22);
+  border-top: 1px solid #ccc;
+}
+
+.accordion-content p {
+  margin: 0;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.arrow.up {
+  transform: rotate(180deg);
+}
