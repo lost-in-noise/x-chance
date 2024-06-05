@@ -22,6 +22,19 @@
   .block-on-image {
     padding: 16px;
   }
+  .info-text {
+    font-size: 20px;
+  }
+  .more-info {
+    font-size: 16px;
+  }
+  .courses {
+    padding: 16px;
+  }
+  .section-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 }
 @media (max-width: 780px) {
   .navigation {
@@ -66,18 +79,39 @@
   }
 
   .main-title {
-    font-size: 24px;
+    font-size: 18px;
   }
   .title {
     font-size: 16px;
   }
+
   .info-text {
-    font-size: 20px;
-  }
-  .more-info {
     font-size: 16px;
   }
   .info-box {
     height: auto;
+  }
+
+  .three-boxes {
+    flex-direction: column;
+    row-gap: 24px;
+    max-width: 750px;
+  }
+  .box {
+    max-width: 100%;
+    height: auto;
+  }
+  .course-name {
+    justify-content: space-around;
+    gap: 10px;
+  }
+  .name {
+    margin-bottom: 0px;
+  }
+  .descr {
+    margin-bottom: 0px;
+  }
+  .box-content {
+    gap: 20px;
   }
 }
