@@ -302,7 +302,13 @@ img {
   border-radius: 6px;
   background-color: #00aeef;
   color: #f2f4ff;
-  /* transition: background-color 0.4s ease 0s; */
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 1.6em;
+  font-size: 16px;
   transition: color 0.4s ease 0s;
 }
 .btn:hover {
@@ -310,7 +316,36 @@ img {
   color: #555;
 }
 
-
+.footer-section {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .container-footer {
-
+  max-width: 1296px;
+  width: 95%;
+  height: 228px;
+  padding: 66px 80px 82px;
+  color: #f2f4ff;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 1.6em;
+  font-size: 14px;
+}
+.footer-logo {
+  width: 106px;
+}
+.soc-icons img {
+  width: 39px;
+}
+.terms a {
+  color: #f2f4ff;
+  transition: color .4s ease 0s;
+}
+.terms a:hover {
+color: #555;
 }
