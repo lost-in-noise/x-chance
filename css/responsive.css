@@ -38,6 +38,12 @@
   .container-footer {
     padding: 66px 16px;
   }
+  .accordion {
+    padding: 16px;
+  }
+  .faq-title {
+    text-align: center;
+  }
 }
 @media (max-width: 780px) {
   .navigation {
@@ -142,5 +148,15 @@
   }
   .btn {
     margin-top: 0px;
+  }
+
+  .faq-title {
+    align-items: baseline;
+  }
+  .accordion-title {
+    font-size: 16px;
+  }
+  .accordion-header p {
+    font-size: 16px;
   }
 }

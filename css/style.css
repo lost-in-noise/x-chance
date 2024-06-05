@@ -373,7 +373,7 @@ img {
 
 /* accordion section */
 .accordion {
-  width: 80%;
+  width: 100%;
   max-width: 1000px;
   margin: auto;
 }
@@ -411,13 +411,13 @@ img {
 
 .accordion-content p {
   margin: 0;
-  font-size: 1em;
+  font-size: 14px;
   font-family: "Noto Sans Georgian", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-  line-height: 1.2em;
+  line-height: 1.1em;
 }
 
 .arrow {
@@ -434,6 +434,7 @@ img {
 .faq-title {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .faq {
   margin-top: 34px;
@@ -441,13 +442,13 @@ img {
 }
 .move-right {
   margin: 25px;
-  font-size: 1em;
+  font-size: 14px;
   font-family: "Noto Sans Georgian", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-  line-height: 1.2em;
+  line-height: 1.1em;
 }
 .move-right span {
   display: block;
