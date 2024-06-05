@@ -406,11 +406,18 @@ img {
 .accordion-content {
   padding: 15px;
   display: none;
-  background-color: rgb(22, 22, 22);
+  background-color: transparent;
 }
 
 .accordion-content p {
   margin: 0;
+  font-size: 1em;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 1.2em;
 }
 
 .arrow {
@@ -431,4 +438,18 @@ img {
 .faq {
   margin-top: 34px;
   margin-bottom: 47px;
+}
+.move-right {
+  margin: 25px;
+  font-size: 1em;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 1.2em;
+}
+.move-right span {
+  display: block;
+  margin-bottom: 5px;
 }
