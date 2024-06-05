@@ -374,7 +374,7 @@ img {
 /* accordion section */
 .accordion {
   width: 80%;
-  max-width: 600px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -398,8 +398,7 @@ img {
 .accordion-content {
   padding: 15px;
   display: none;
-  background-color: rgb(27, 22, 22);
-  border-top: 1px solid #ccc;
+  background-color: rgb(22, 22, 22);
 }
 
 .accordion-content p {
@@ -412,4 +411,11 @@ img {
 
 .arrow.up {
   transform: rotate(180deg);
+}
+.accordion-section {
+  background-color: rgb(22, 22, 22);
+}
+.faq-title {
+  display: flex;
+  justify-content: space-between;
 }
