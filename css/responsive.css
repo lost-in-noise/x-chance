@@ -114,4 +114,27 @@
   .box-content {
     gap: 20px;
   }
+
+  .footer-heder {
+    flex-direction: column;
+  }
+  .soc-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+  }
+  .ftr-text {
+    flex-direction: column-reverse;
+  }
+  .container-footer {
+    padding: 0px;
+    justify-content: center;
+    position: relative;
+    gap: 46px;
+  }
+  .footer-btn {
+    position: absolute;
+    top: 105px;
+    left: 0;
+  }
 }

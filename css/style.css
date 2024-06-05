@@ -345,12 +345,16 @@ img {
 .soc-icons img {
   width: 39px;
 }
+.soc-icons {
+  display: flex;
+  gap: 15px;
+}
 .terms a {
   color: #f2f4ff;
-  transition: color .4s ease 0s;
+  transition: color 0.4s ease 0s;
 }
 .terms a:hover {
-color: #555;
+  color: #555;
 }
 .footer-heder {
   display: flex;
