@@ -324,9 +324,9 @@ img {
 }
 .container-footer {
   max-width: 1296px;
-  width: 95%;
-  height: 228px;
-  padding: 66px 80px 82px;
+  width: 90%;
+  height: 282px;
+  padding: 66px 80px;
   color: #f2f4ff;
   font-family: "Noto Sans Georgian", sans-serif;
   font-optical-sizing: auto;
@@ -335,6 +335,9 @@ img {
   font-variation-settings: "wdth" 100;
   line-height: 1.6em;
   font-size: 14px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .footer-logo {
   width: 106px;
@@ -348,4 +351,17 @@ img {
 }
 .terms a:hover {
 color: #555;
+}
+.footer-heder {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.ftr-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
