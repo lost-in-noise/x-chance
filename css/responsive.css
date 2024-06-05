@@ -8,9 +8,6 @@
   .li {
     padding: 12px;
   }
-  .container-footer {
-    width: 100%;
-  }
 }
 @media (max-width: 1024px) {
   .logo {
@@ -37,6 +34,9 @@
   .section-title {
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+  .container-footer {
+    padding: 66px 16px;
   }
 }
 @media (max-width: 780px) {
@@ -131,16 +131,14 @@
     flex-direction: column-reverse;
   }
   .container-footer {
-    padding: 0px;
     justify-content: center;
     position: relative;
     gap: 46px;
-    width: 95%;
   }
   .footer-btn {
     position: absolute;
     top: 105px;
-    left: 0;
+    left: 16px;
   }
   .btn {
     margin-top: 0px;
