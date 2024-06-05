@@ -117,6 +117,7 @@
 
   .footer-heder {
     flex-direction: column;
+    gap: 44px;
   }
   .soc-icons {
     display: flex;
@@ -136,5 +137,8 @@
     position: absolute;
     top: 105px;
     left: 0;
+  }
+  .btn {
+    margin-top: 0px;
   }
 }
