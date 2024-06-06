@@ -51,7 +51,7 @@ let slideInterval;
 function showSlide(index) {
   slides.forEach((slide) => slide.classList.remove("active-slide"));
   bullets.forEach((bullet) => bullet.classList.remove("active"));
-  const slidesToShow = window.innerWidth > 780 ? (index === 6 ? 1 : 3) : 1;
+  const slidesToShow = window.innerWidth > 780 ? (index >= 6 ? 1 : 3) : 1;
   for (let i = 0; i < slidesToShow; i++) {
     if (slides[index + i]) {
       slides[index + i].classList.add("active-slide");
