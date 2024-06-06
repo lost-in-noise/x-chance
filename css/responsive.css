@@ -159,4 +159,11 @@
   .accordion-header p {
     font-size: 16px;
   }
+
+  .slide {
+    width: 100%;
+  }
+  .slide-arrow {
+    display: none;
+  }
 }
