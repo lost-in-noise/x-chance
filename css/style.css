@@ -458,20 +458,16 @@ img {
 /* slider */
 .slider-section {
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
-  padding-bottom: 70px;
   flex-direction: column;
+  padding-bottom: 70px;
 }
 .slider-container {
   position: relative;
-  /* width: 80%; */
   overflow: hidden;
   width: 100%;
   max-width: 1200px;
   margin: auto;
   height: 180px;
- 
 }
 
 .slider {
@@ -490,7 +486,6 @@ img {
   width: 100%;
   height: auto;
   display: block;
-  max-height: 80px;
 }
 
 .active-slide {
