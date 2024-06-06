@@ -483,8 +483,8 @@ img {
 }
 
 .slide img {
-  max-width: 240px;  /* Adjust the maximum width */
-    max-height: 100px; /* Adjust the maximum height */
+  max-width: 240px;  
+    max-height: 100px; 
     display: block;
     margin: auto; 
 }
@@ -553,7 +553,7 @@ img {
   line-height: 1.6em;
 }
 .slider-title-block {
-  width: 450px;
+  max-width: 450px;
   height: auto;
   padding-bottom: 40px;
   margin: 34px 0px 31px calc((100% - 980px) * 0.5);
