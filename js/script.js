@@ -105,3 +105,21 @@ window.addEventListener("resize", () => {
 
 startSlideShow();
 showSlide(currentIndex);
+
+
+// touch
+let startX, endX;
+
+slider.addEventListener("touchstart", (event) => {
+  startX = event.touches[0].pageX;
+});
+
+slider.addEventListener("touchend", (event) => {
+  endX = event.changedTouches[0].pageX;
+
+  if (endX - startX > 100) {
+    nextSlide();
+  } else if (endX - startX < -100) {
+    prevSlide();
+  }
+});
