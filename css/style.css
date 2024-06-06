@@ -483,9 +483,10 @@ img {
 }
 
 .slide img {
-  width: 100%;
-  height: auto;
-  display: block;
+  max-width: 240px;  /* Adjust the maximum width */
+    max-height: 100px; /* Adjust the maximum height */
+    display: block;
+    margin: auto; 
 }
 
 .active-slide {
