@@ -47,6 +47,9 @@
   .slider-title-block {
     margin-left: 16px;
   }
+  .active-slide {
+    gap: 50px;
+  }
 }
 @media (max-width: 780px) {
   .navigation {
@@ -174,5 +177,9 @@
   }
   .slider {
     min-height: 400px;
+  }
+  .slider-title-block {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 }

@@ -480,13 +480,11 @@ img {
 .slide {
   display: none;
   flex-shrink: 0;
-
   margin: 5px;
 }
 
 .slide img {
-  max-width: 240px;
-  max-height: 100px;
+  max-width: 200px;
   display: block;
   margin: auto;
 }
@@ -496,7 +494,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 140px;
   flex-wrap: nowrap;
   justify-content: center;
 }
@@ -512,7 +510,7 @@ img {
 
 .slide-arrow {
   cursor: pointer;
-  font-size: 24px;
+  font-size: 36px;
   user-select: none;
   position: absolute;
   top: 25%;
