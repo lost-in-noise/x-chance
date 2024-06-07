@@ -44,7 +44,7 @@
   .faq-title {
     text-align: center;
   }
-  .slider-title-block  {
+  .slider-title-block {
     margin-left: 16px;
   }
 }
@@ -169,5 +169,10 @@
   .slide-arrow {
     display: none;
   }
- 
+  .active-slide {
+    flex-direction: column;
+  }
+  .slider {
+    min-height: 400px;
+  }
 }

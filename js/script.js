@@ -51,17 +51,17 @@ let slideInterval;
 function showSlide(index) {
   slides.forEach((slide) => slide.classList.remove("active-slide"));
   bullets.forEach((bullet) => bullet.classList.remove("active"));
-  const slidesToShow = window.innerWidth > 780 ? (index >= 6 ? 1 : 3) : 1;
+  const slidesToShow = 1;
   for (let i = 0; i < slidesToShow; i++) {
     if (slides[index + i]) {
       slides[index + i].classList.add("active-slide");
     }
   }
-  bullets[Math.floor(index / 3)].classList.add("active");
+  bullets[index].classList.add("active");
 }
 
 function nextSlide() {
-  const slidesToShow = window.innerWidth > 780 ? 3 : 1;
+  const slidesToShow = 1;
   currentIndex += slidesToShow;
   if (currentIndex >= slides.length) {
     currentIndex = 0;
@@ -70,18 +70,17 @@ function nextSlide() {
 }
 
 function prevSlide() {
-  const slidesToShow = window.innerWidth > 780 ? 3 : 1;
+  const slidesToShow = 1;
   currentIndex -= slidesToShow;
   if (currentIndex < 0) {
-    currentIndex = slides.length - (window.innerWidth > 780 ? 1 : 1);
+    currentIndex = slides.length - 1;
   }
   showSlide(currentIndex);
 }
 
 bullets.forEach((bullet, index) => {
   bullet.addEventListener("click", () => {
-    currentIndex = index * 3;
-    showSlide(currentIndex);
+    showSlide(index);
   });
 });
 
@@ -105,7 +104,6 @@ window.addEventListener("resize", () => {
 
 startSlideShow();
 showSlide(currentIndex);
-
 
 // touch
 let startX, endX;

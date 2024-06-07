@@ -480,7 +480,7 @@ img {
 .slide {
   display: none;
   flex-shrink: 0;
-  width: calc(33.33% - 10px);
+
   margin: 5px;
 }
 
@@ -492,8 +492,13 @@ img {
 }
 
 .active-slide {
-  display: block;
   animation: fadeIn 1s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
 @keyframes fadeIn {
