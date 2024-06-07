@@ -93,18 +93,8 @@
     top: 60px;
   }
 
-  .main-title {
-    font-size: 18px;
-  }
-  .title {
-    font-size: 16px;
-  }
-
   .info-text {
-    font-size: 16px;
-  }
-  .info-box {
-    height: auto;
+    font-size: 18px;
   }
 
   .three-boxes {

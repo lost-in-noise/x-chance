@@ -156,10 +156,24 @@
     <main>
       <section class="bg-image-section">
         <div class="image-block">
-          <img
-            src="https://static.wixstatic.com/media/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg/v1/fill/w_1812,h_420,al_c,q_85,enc_auto/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg"
-            alt="background image"
-          />
+          <picture class="picture-section-block">
+            <source
+              media="(min-width:780px)"
+              srcset="
+                https://static.wixstatic.com/media/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg/v1/fill/w_1812,h_420,al_c,q_85,enc_auto/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg
+              "
+            />
+            <source
+              media="(min-width:320px)"
+              srcset="
+                https://static.wixstatic.com/media/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg/v1/fill/w_622,h_420,al_c,q_80,enc_auto/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg
+              "
+            />
+            <img
+              src="https://static.wixstatic.com/media/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg/v1/fill/w_622,h_420,al_c,q_80,enc_auto/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg"
+              alt="Background Image"
+            />
+          </picture>
         </div>
         <div class="block-on-image">
           <h1 class="main-title">TBC x USAID</h1>
