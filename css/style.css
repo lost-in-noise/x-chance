@@ -431,15 +431,38 @@ body {
 .accordion-section {
   background-color: rgb(22, 22, 22);
   padding: 70px 0px;
+  position: relative;
 }
 .faq-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 120px;
+}
+.accordion-title {
+  color: #dbdbdb;
+  font-size: 24px;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 1.6em;
 }
 .faq {
-  margin-top: 34px;
-  margin-bottom: 47px;
+  font-size: 20px;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 1.6em;
+  color: rgb(0, 174, 243);
+  transition: color 0.4s ease 0s;
+  cursor: pointer;
+}
+.faq:hover {
+  color: #9b9b9b;
 }
 .move-right {
   margin: 25px;

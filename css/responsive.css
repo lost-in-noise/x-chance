@@ -41,9 +41,7 @@
   .accordion {
     padding: 16px;
   }
-  .faq-title {
-    text-align: center;
-  }
+
   .slider-title-block {
     margin-left: 16px;
   }
@@ -146,14 +144,17 @@
     margin-top: 0px;
   }
 
-  .faq-title {
-    align-items: baseline;
-  }
-  .accordion-title {
-    font-size: 16px;
-  }
   .accordion-header p {
     font-size: 16px;
+  }
+  .faq {
+    position: absolute;
+    bottom: 15px;
+    left: 35%;
+    transform: translateY(-50%);
+  }
+  .faq-title {
+    height: 100px;
   }
 
   .slide {
